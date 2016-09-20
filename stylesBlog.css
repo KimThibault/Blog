@@ -1,15 +1,69 @@
 
 
 @media screen and (min-width:220px) and (max-width:991px){	
+	.head-banner{
+		
+	}
 	#bio-section{
-		display:none;
+		/*display:none;*/
+	}
+
+	.blog-entry{
+		padding:10px;
+	}
+
+	.date-blog-entry{
+		margin: 10px;
+		text-align:left;
+		font-size:13pt;
+	}
+	.title-blog-entry{
+		margin: 10px;
+		text-align:left;
+		font-size:16pt;
+	}
+	.pic-blog-entry{
+		margin: 10px;
+	}
+	.text-blog-entry{
+		margin: 10px;
+		text-align:left;
+		font-size:12pt;
+		line-height: 1.4em;
 	}
 	
 	.responsive{
 		display:inline-block;
 	} 
 }
-@media screen and (min-width:992px){		
+@media screen and (min-width:992px){	
+	.head-banner{
+		margin:40px;
+		padding:20px;
+	}
+	.blog-entry{
+		margin: 40px;
+		padding:25px;
+	}
+	.date-blog-entry{
+		margin: 20px;
+		text-align:left;
+		font-size:16pt;
+	}
+	.title-blog-entry{
+		margin: 20px;
+		text-align:left;
+		font-size:20pt;
+	}
+	.pic-blog-entry{
+		margin: 20px;
+	}
+	.text-blog-entry{
+		margin: 20px;
+		text-align:left;
+		font-size:14pt;
+		line-height: 1.4em;
+	}
 	.responsive{
 		display:inline-block;
 	} 					
@@ -23,55 +77,37 @@
 .container{
 	margin-bottom: 40px;
 }
-.head-banner{
-	text-align:center;
-	margin:40px;
-	padding:20px;
-}
+
 .blog-entry{	
 	color: grey;
 	text-align:left;
 	padding: 25px;	
-	margin: 40px;
 	border:1px solid #FF0000;
 	border-radius: 15px;
-	width:60%;
-}
-.date-blog-entry{
-	margin: 20px;
-	text-align:left;
-	font-size:16pt;
-}
-.title-blog-entry{
-	margin: 20px;
-	text-align:left;
-	font-size:20pt;
-}
-.pic-blog-entry{
-	margin: 20px;
 }
 .text-blog-entry{
-	margin: 20px;
-	text-align:left;
-	font-size:14pt;
-	line-height: 1.4em;
+	text-align: justify;
+    text-justify: inter-word;
 }
 
 #bio-section{
-	margin:0 5%;
+	margin:-140px 5% 0;
 	float:right;
 	flex-wrap: wrap;
 	width: 20%;
 }
 
 #profile-pic{
-	margin-top:-120px;
 }
 
 #bio{
-	margin:20px;
-	padding:10px;
+	/*margin:20px;
+	padding:10px;*/
+	margin-top:30px;
 	line-height: 1.4em;
+	text-align: justify;
+    text-justify: inter-word;
+    font-size: 13pt;
 }
 
 .parallelogram { 
@@ -140,6 +176,7 @@ a{
 	text-decoration:none;
 	border: #FF0000 solid 1px;
 	border-radius: 5px;
+	line-height: 2.5em;
 }	
 .nav a:hover{
 	text-decoration:none;
@@ -156,3 +193,12 @@ a:hover{
 	transform: scale(1.1);
 	}
 
+.button-custom{	
+    float: right;
+    background-color: white;
+}
+
+.margin-row{
+	margin-top:5px;
+	margin-bottom:5px;
+}
