@@ -5,7 +5,7 @@
 		
 	}
 	#bio-section{
-		/*display:none;*/
+		margin-bottom: 40px;
 	}
 
 	.blog-entry{
@@ -40,6 +40,12 @@
 	.head-banner{
 		margin:40px;
 		padding:20px;
+	}
+	#bio-section{
+		margin:-140px 5% 0;
+		float:right;
+		flex-wrap: wrap;
+		width: 20%;
 	}
 	.blog-entry{
 		margin: 40px;
@@ -90,19 +96,11 @@
     text-justify: inter-word;
 }
 
-#bio-section{
-	margin:-140px 5% 0;
-	float:right;
-	flex-wrap: wrap;
-	width: 20%;
-}
 
 #profile-pic{
 }
 
-#bio{
-	/*margin:20px;
-	padding:10px;*/
+#bio{	
 	margin-top:30px;
 	line-height: 1.4em;
 	text-align: justify;
