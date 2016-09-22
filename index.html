@@ -13,7 +13,9 @@
 		<link rel="stylesheet" type="text/css"   href="bootstrap/bootstrap.css" />
         <link rel="stylesheet" href="stylesBlog.css" type="text/css"/>		
 		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-		<title> Blog </title>			
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/> <!-- ICONS -->
+		<!--<link href="fonts/css/font-awesome.css">-->
+		<title>Blog</title>			
     </head>
 	
     <body>
@@ -33,21 +35,12 @@
 		</div>
 		
 		<div class="container">		
+			<div class="row margin-row">
+				<div id="primary" class="col-md-9">	
 
-			<div id="bio-section" class="col-md-3 col-md-offset-9 hidden-xs">				
-				<img class="img-circle img-responsive" id="profile-pic" src="images/rita_hayworth_closeup_carre.jpg">	
-				<div id="bio">
-					Rita Hayworth is a famous actress who has played in countless Orson Welles movies. She is an icon of the 1940s.
-				</div>
-				<!--
-				<div class="parallelogram"></div>
-				<div class="parallelogram"></div>
-				<div class="parallelogram"></div>
-				-->
-			</div>	
 
-			<div class="row margin-row"> 
-				<div class="col-md-6 col-md-offset-3 thin_border blog-entry">					
+				<article class="thin_border blog-entry top-blog-entry">	
+				<!-- 	<article id="post-15155" class="post-15155 post type-post status-publish format-standard hentry category-entrepreneurship category-lifestyle"> -->
 					<div class="date-blog-entry">23 mai 2016</div>
 					<div class="title-blog-entry">Mentitum repudiare te qui</div>
 					<div class="text-blog-entry">Lorem ipsum dolor sit amet, eruditi meliore vix ad, idque viris eum ei. Laudem utroque vocibus ad quo, illum ridens eum an. Mea iusto salutatus ea, eos putent facilisi eloquentiam an. Vis ei graece sapientem constituto, animal definitiones vim ex. Mentitum repudiare te qui.
@@ -56,35 +49,51 @@
 
 					Novum tamquam at sea. Oblique platonem reformidans et cum, quo ex vero deterruisset. Id mutat reque mea. Sed nobis decore partiendo ea, has tale minimum assueverit et. Duo animal mnesarchum disputationi cu. Ullum iracundia no est, et per habeo utroque.
 					</div>
-					<!--<button class="btn button-custom">Like</button>-->
-				</div>		
+					<div class="row">
+						<!--
+						<button class="btn button-custom"><i class="fa fa-thumbs-up"></i>Like</button>
+						<button class="btn button-custom"><i class="fa fa-twitter"></i>Twitter</button>
+					-->
+					</div>
+				</article>		
 									
-			</div> 		
 
-			<div class="row margin-row"> 
-				<div class="col-md-6 col-md-offset-3  thin_border blog-entry">					
+				<article class="thin_border blog-entry">					
 					<div class="date-blog-entry">20 mai 2016</div>
 					<div class="title-blog-entry">Duo animal mnesarchum disputationi</div>
 					<div class="text-blog-entry">Ln sale disputationi nam. In sea dico voluptaria, quo ea sumo elit. Cu possit lobortis eum. Ius tritani oportere id, in per vitae intellegat abhorreant. Ex nam minim reprehendunt, aliquip impedit argumentum cum in.
 
 					Novum tamquam at sea. Oblique platonem reformidans et cum, quo ex vero deterruisset. Id mutat reque mea. Sed nobis decore partiendo ea, has tale minimum assueverit et. Duo animal mnesarchum disputationi cu. Ullum iracundia no est, et per habeo utroque.</div>
 					<!-- <button class="btn button-custom">Like</button> -->					
-				</div>							
-			</div> 		
+				</article>							
 
-			<div class="row margin-row"> 
-				<div class="col-md-6 col-md-offset-3 thin_border blog-entry">					
+				<article class="thin_border blog-entry">					
 					<div class="date-blog-entry">17 mai 2016</div>
 					<div class="title-blog-entry">Ex nam minim</div>
 					<div class="text-blog-entry">Novum tamquam at sea. Oblique platonem reformidans et cum, quo ex vero deterruisset. Id mutat reque mea. Sed nobis decore partiendo ea, has tale minimum assueverit et. Duo animal mnesarchum disputationi cu. Ullum iracundia no est, et per habeo utroque.</div>
 					<!--<button class="btn button-custom">Like</button>			-->
-				</div>					
-			</div> 		
+				</article>					
+				</div> 
 
+				<div id="secondary" class="col-md-3">	
+					<aside id="bio-section" class="hidden-xs">				
+						<img id="profile-pic" class="img-circle img-responsive" src="images/rita_hayworth_closeup_carre.jpg">	
+						<div id="bio">
+							Rita Hayworth is a famous actress who has played in countless Orson Welles movies. She is an icon of the 1940s.
+						</div>
+						<!--
+						<div class="parallelogram"></div>
+						<div class="parallelogram"></div>
+						<div class="parallelogram"></div>
+						-->
+					</aside>	
 
-		</div>
+				</div>
+			
+			</div>
 
-		<div id="bio-section" class="col-xs-8 col-xs-offset-2 hidden-md">				
+			
+		<aside id="bio-section" class="hidden-md" style="display:none">				
 				<img class="img-circle img-responsive" id="profile-pic" src="images/rita_hayworth_closeup_carre.jpg">	
 				<div id="bio">
 					Rita Hayworth is a famous actress who has played in countless Orson Welles movies. She is an icon of the 1940s.
@@ -94,7 +103,7 @@
 				<div class="parallelogram"></div>
 				<div class="parallelogram"></div>
 				-->
-		</div>	
+		</aside>	
 		
 	</div>
 		

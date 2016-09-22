@@ -1,4 +1,12 @@
-
+/*
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/font-awesome/fontawesome-webfont.eot?v=4.5.0');
+  src: url('fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('fonts/font-awesome/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('fonts/font-awesome/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('fonts/font-awesome/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('fonts/font-awesome/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
 
 @media screen and (min-width:220px) and (max-width:991px){	
 	.head-banner{
@@ -45,7 +53,6 @@
 		margin:-140px 5% 0;
 		float:right;
 		flex-wrap: wrap;
-		width: 20%;
 	}
 	.blog-entry{
 		margin: 40px;
@@ -80,9 +87,18 @@
 }
 
 
+article{
+	float:left;
+}
+
+aside{
+	float:left;
+}
+
 .container{
 	margin-bottom: 40px;
 }
+
 
 .blog-entry{	
 	color: grey;
@@ -151,7 +167,8 @@ body{
 	opacity: 0.9;
 	color: #666666;          
 	font-family: 'Raleway', sans-serif; 
-	font-weight: bold;				
+	font-weight: bold;	
+	text-transform: optimizelegibility;			
 }
 a{	
 	/* display: block; */
@@ -194,9 +211,13 @@ a:hover{
 .button-custom{	
     float: right;
     background-color: white;
+    margin:5px;
 }
 
 .margin-row{
 	margin-top:5px;
 	margin-bottom:5px;
 }
+
+.fa { font-family: 'FontAwesome' !important; } /* inutile */
+
