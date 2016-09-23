@@ -15,6 +15,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/> <!-- ICONS -->
 		<!--<link href="fonts/css/font-awesome.css">-->
+		<script src="pagination.js"></script>
 		<title>Blog</title>			
     </head>
 	
@@ -34,45 +35,67 @@
 			</div>
 		</div>
 		
+		<input type='hidden' id='current_page' />  
+		<input type='hidden' id='show_per_page' />  
+
 		<div class="container">		
 			<div class="row margin-row">
 				<div id="primary" class="col-md-9">	
+					<article class="thin_border blog-entry top-blog-entry">	
+					<!-- 	<article id="post-15155" class="post-15155 post type-post status-publish format-standard hentry category-entrepreneurship category-lifestyle"> -->
+						<div class="date-blog-entry">23 mai 2016</div>
+						<div class="title-blog-entry">Mentitum repudiare te qui</div>
+						<div class="text-blog-entry">Lorem ipsum dolor sit amet, eruditi meliore vix ad, idque viris eum ei. Laudem utroque vocibus ad quo, illum ridens eum an. Mea iusto salutatus ea, eos putent facilisi eloquentiam an. Vis ei graece sapientem constituto, animal definitiones vim ex. Mentitum repudiare te qui.
 
+						An sale disputationi nam. In sea dico voluptaria, quo ea sumo elit. Cu possit lobortis eum. Ius tritani oportere id, in per vitae intellegat abhorreant. Ex nam minim reprehendunt, aliquip impedit argumentum cum in.
 
-				<article class="thin_border blog-entry top-blog-entry">	
-				<!-- 	<article id="post-15155" class="post-15155 post type-post status-publish format-standard hentry category-entrepreneurship category-lifestyle"> -->
-					<div class="date-blog-entry">23 mai 2016</div>
-					<div class="title-blog-entry">Mentitum repudiare te qui</div>
-					<div class="text-blog-entry">Lorem ipsum dolor sit amet, eruditi meliore vix ad, idque viris eum ei. Laudem utroque vocibus ad quo, illum ridens eum an. Mea iusto salutatus ea, eos putent facilisi eloquentiam an. Vis ei graece sapientem constituto, animal definitiones vim ex. Mentitum repudiare te qui.
+						Novum tamquam at sea. Oblique platonem reformidans et cum, quo ex vero deterruisset. Id mutat reque mea. Sed nobis decore partiendo ea, has tale minimum assueverit et. Duo animal mnesarchum disputationi cu. Ullum iracundia no est, et per habeo utroque.
+						</div>
+						<div class="row">
+							<!--
+							<button class="btn button-custom"><i class="fa fa-thumbs-up"></i>Like</button>
+							<button class="btn button-custom"><i class="fa fa-twitter"></i>Twitter</button>
+						-->
+						</div>
+					</article>		
+										
 
-					An sale disputationi nam. In sea dico voluptaria, quo ea sumo elit. Cu possit lobortis eum. Ius tritani oportere id, in per vitae intellegat abhorreant. Ex nam minim reprehendunt, aliquip impedit argumentum cum in.
+					<article class="thin_border blog-entry">					
+						<div class="date-blog-entry">20 mai 2016</div>
+						<div class="title-blog-entry">Duo animal mnesarchum disputationi</div>
+						<div class="text-blog-entry">Ln sale disputationi nam. In sea dico voluptaria, quo ea sumo elit. Cu possit lobortis eum. Ius tritani oportere id, in per vitae intellegat abhorreant. Ex nam minim reprehendunt, aliquip impedit argumentum cum in.
 
-					Novum tamquam at sea. Oblique platonem reformidans et cum, quo ex vero deterruisset. Id mutat reque mea. Sed nobis decore partiendo ea, has tale minimum assueverit et. Duo animal mnesarchum disputationi cu. Ullum iracundia no est, et per habeo utroque.
-					</div>
-					<div class="row">
-						<!--
-						<button class="btn button-custom"><i class="fa fa-thumbs-up"></i>Like</button>
-						<button class="btn button-custom"><i class="fa fa-twitter"></i>Twitter</button>
-					-->
-					</div>
-				</article>		
-									
+						Novum tamquam at sea. Oblique platonem reformidans et cum, quo ex vero deterruisset. Id mutat reque mea. Sed nobis decore partiendo ea, has tale minimum assueverit et. Duo animal mnesarchum disputationi cu. Ullum iracundia no est, et per habeo utroque.</div>
+						<!-- <button class="btn button-custom">Like</button> -->					
+					</article>							
 
-				<article class="thin_border blog-entry">					
-					<div class="date-blog-entry">20 mai 2016</div>
-					<div class="title-blog-entry">Duo animal mnesarchum disputationi</div>
-					<div class="text-blog-entry">Ln sale disputationi nam. In sea dico voluptaria, quo ea sumo elit. Cu possit lobortis eum. Ius tritani oportere id, in per vitae intellegat abhorreant. Ex nam minim reprehendunt, aliquip impedit argumentum cum in.
+					<article class="thin_border blog-entry">					
+						<div class="date-blog-entry">17 mai 2016</div>
+						<div class="title-blog-entry">Ex nam minim</div>
+						<div class="text-blog-entry">Novum tamquam at sea. Oblique platonem reformidans et cum, quo ex vero deterruisset. Id mutat reque mea. Sed nobis decore partiendo ea, has tale minimum assueverit et. Duo animal mnesarchum disputationi cu. Ullum iracundia no est, et per habeo utroque.</div>
+						<!--<button class="btn button-custom">Like</button>			-->
+					</article>		
 
-					Novum tamquam at sea. Oblique platonem reformidans et cum, quo ex vero deterruisset. Id mutat reque mea. Sed nobis decore partiendo ea, has tale minimum assueverit et. Duo animal mnesarchum disputationi cu. Ullum iracundia no est, et per habeo utroque.</div>
-					<!-- <button class="btn button-custom">Like</button> -->					
-				</article>							
+					<article class="thin_border blog-entry">					
+						<div class="date-blog-entry">17 mai 2016</div>
+						<div class="title-blog-entry">Ex nam minim</div>
+						<div class="text-blog-entry">Novum tamquam at sea. Oblique platonem reformidans et cum, quo ex vero deterruisset. Id mutat reque mea. Sed nobis decore partiendo ea, has tale minimum assueverit et. Duo animal mnesarchum disputationi cu. Ullum iracundia no est, et per habeo utroque.</div>
+						<!--<button class="btn button-custom">Like</button>			-->
+					</article>		
 
-				<article class="thin_border blog-entry">					
-					<div class="date-blog-entry">17 mai 2016</div>
-					<div class="title-blog-entry">Ex nam minim</div>
-					<div class="text-blog-entry">Novum tamquam at sea. Oblique platonem reformidans et cum, quo ex vero deterruisset. Id mutat reque mea. Sed nobis decore partiendo ea, has tale minimum assueverit et. Duo animal mnesarchum disputationi cu. Ullum iracundia no est, et per habeo utroque.</div>
-					<!--<button class="btn button-custom">Like</button>			-->
-				</article>					
+					<article class="thin_border blog-entry">					
+						<div class="date-blog-entry">17 mai 2016</div>
+						<div class="title-blog-entry">Ex nam minim</div>
+						<div class="text-blog-entry">Novum tamquam at sea. Oblique platonem reformidans et cum, quo ex vero deterruisset. Id mutat reque mea. Sed nobis decore partiendo ea, has tale minimum assueverit et. Duo animal mnesarchum disputationi cu. Ullum iracundia no est, et per habeo utroque.</div>
+						<!--<button class="btn button-custom">Like</button>			-->
+					</article>		
+
+					<article class="thin_border blog-entry">					
+						<div class="date-blog-entry">17 mai 2016</div>
+						<div class="title-blog-entry">Ex nam minim</div>
+						<div class="text-blog-entry">Novum tamquam at sea. Oblique platonem reformidans et cum, quo ex vero deterruisset. Id mutat reque mea. Sed nobis decore partiendo ea, has tale minimum assueverit et. Duo animal mnesarchum disputationi cu. Ullum iracundia no est, et per habeo utroque.</div>
+						<!--<button class="btn button-custom">Like</button>			-->
+					</article>					
 				</div> 
 
 				<div id="secondary" class="col-md-3">	
@@ -105,17 +128,22 @@
 				-->
 		</aside>	
 		
-	</div>
+
+		<div class="row margin-row">
+			<div id="page-navigation" class="col-md-4 col-md-offset-4 col-xs-12 text-center"></div> 				
+		</div>
 		
-		<!--
+		<!-- gala darling:
 		<nav id="nav-below" class="navigation" role="navigation">
 			<div class="nav-previous"><a href="http://blog.com/page/3/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
 			<div class="nav-next"><a href="http://blog.com/" >Newer posts <span class="meta-nav">&rarr;</span></a></div>
 		</nav>
 		-->
-		
+
 	<script>	
 	/*
+		// parallelograms (styling)
+
 		var marginLeftPrime;
 		var paral = $('.parallelogram');
 		var marginLeft = Number(paral.css('margin-left').replace('px', '')); 	
