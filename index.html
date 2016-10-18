@@ -22,18 +22,22 @@
     <body>
 		
 	<div class="container-fluid">
-		
-		<div class="container head-banner text-center">
-			<h1 class="text-center">Hayworth Template</h1>		
-			<h2 class="text-center">Sed nobis decore partiendo ea, has tale minimum</h2>
-			<div class='nav'>	
-				<ul>		
-					<li>Style</li>	
-					<li>Movies</li>	
-					<li>Glamour</li>	
-					<li>Music</li>		
-					<li>Orson</li>
-				</ul>			
+		<div class="container" id="head-banner">		
+			<div class="row margin-row">
+				<div class="container text-center col-md-9">
+					<h1 class="text-center">Hayworth Template</h1>		
+					<h2 class="text-center">Sed nobis decore partiendo ea, has tale minimum</h2>
+					<img id="profile-pic-mobile" class="img-circle img-responsive" src="images/rita_hayworth_closeup_carre.jpg">					
+					<div class='nav'>	
+						<ul>		
+							<li>Style</li>	
+							<li>Movies</li>	
+							<li>Glamour</li>	
+							<li>Music</li>		
+							<li>Orson</li>
+						</ul>			
+					</div>
+				</div>
 			</div>
 		</div>
 		
@@ -42,7 +46,7 @@
 
 		<div class="container">		
 			<div class="row margin-row">
-				<div id="primary" class="col-md-9">	
+				<div id="main-content" class="col-md-9">	
 					<article class="thin_border blog-entry top-blog-entry">	
 					<!-- 	<article id="post-15155" class="post-15155 post type-post status-publish format-standard hentry category-entrepreneurship category-lifestyle"> -->
 						<div class="date-blog-entry">23 mai 2016</div>
@@ -89,7 +93,7 @@
 					</article>					
 				</div> 
 
-				<div id="secondary" class="col-md-3">	
+				<div id="side-content" class="col-md-3">	
 					<aside id="bio-section" class="hidden-xs">				
 						<img id="profile-pic" class="img-circle img-responsive" src="images/rita_hayworth_closeup_carre.jpg">	
 						<div id="bio">
@@ -114,8 +118,8 @@
 
 					<aside id="search-bar" class="hidden-xs">
 						<form method="get" id="search-form" action="http://blogaddress.com">
-						<div> <!-- change name and id, taken from galadarling.com -->
-							<input type="text" value="" name="s" id="s" onFocus="this.value=''" />
+						<div> 
+							<input type="text" value="" name="text-entered" id="text-entered" onFocus="this.value=''" />
 							<input type="submit" class="submit" name="submit" value="Find" />
 						</div> 
 					</aside>				
@@ -167,7 +171,7 @@
 	<script>	
 		var rowSocialMedia = '<div class="row social-media-buttons">'+						
 							'<button class="btn button-custom"><i class="fa fa-thumbs-up"></i></button>'+
-							'<button class="btn button-custom"><i class="fa fa-twitter"></i></button></div>;'
+							'<button class="btn button-custom"><i class="fa fa-twitter"></i></button></div>';
 		$('article').append(rowSocialMedia);
 
 	/*
